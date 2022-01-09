@@ -1,0 +1,46 @@
+body{
+  font-family: sans-serif;
+}
+
+.demo {
+    width:780px;
+    margin: 20px auto;
+}
+#lightSlider {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    width: 780px;
+    height: 520px;
+}
+
+.lSSlideOuter .lSPager.lSGallery li {
+    opacity: 0.5;
+}
+
+.lSSlideOuter .lSPager.lSGallery li.active {
+    opacity: 1;
+}
+
+lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li{
+  border-radius: 0;
+}
+
+lSSlideOuter .lSPager.lSGallery li.active:hover, .lSSlideOuter .lSPager.lSGallery li:hover {
+  border-radius: 0;
+}
+
+.lSSlideOuter .lSPager.lSGallery img {
+    display: block;
+    height: 64px;
+    max-width: 100%;
+}
